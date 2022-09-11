@@ -1,17 +1,102 @@
+.container{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 5rem;
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  margin: 0 2rem;
+
 }
 
 .subtitle{
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0 20px;
+    display: inline-block;
+    transition: all .5s ease-in-out ;
+}
+.add{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0 20px;
+    display: inline-block;
+    /* transition: all .5s ease-in-out; */
+    transform: scale(1.5);
+    text-decoration: underline;
+    text-decoration-color: #127369;
+}
+
+.subtitle1 {
+  
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 20px 20px 0;
+  display:block;
+  transition: all .5s ease-in-out;
+}
+.subtitle1:hover {
+  transform: scale(1.5);
+  text-decoration: underline;
+  text-decoration-color: #127369;
+}
+
+.subtitle:hover{
+  transform: scale(1.5);
+  text-decoration: underline;
+  text-decoration-color: #127369;
 }
 .logo{
     font-size: 3rem;
     font-weight: 700;
 }
+.container1{
+  background-color: white;
+  padding: 20px;
+  height: auto;
+  width: auto;
+}
+.show{
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:-7rem;
+  right:0;
+  
+  padding: 20px 50px 50px 50px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
+}
+.icons{
+  display: inline;
+  margin-right: 10px;
+}
+.icon{
+  cursor: pointer;
+  font-size: 2rem;
+  display: none;
+  
+}
+.icon2{
+  cursor: pointer;
+  position: relative;
+  right: -100%;
+  font-size: 2rem;
+  
+}
+
+@media screen and (max-width:1200px) {
+  .icon{
+    display: block;
+  }
+  .box{
+    display: none;
+  }
+}
+

@@ -1,0 +1,32 @@
+.name{
+    color: #127369;
+}
+.container{
+    display: flex;
+    margin: 7rem 2rem 4rem 2rem;
+}
+.box{
+    text-align: left;
+}
+.heading{
+    display: inline;
+}
+.btn{
+    transition: all .5s ease .1s;
+}
+
+.btn:hover{
+    background-color: white;
+    color:#127369;
+    border: 1px solid #127369;
+}
+
+.linkandgit{
+    display: flex;
+    
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.icongit{
+    margin-right: 5%;
+}
