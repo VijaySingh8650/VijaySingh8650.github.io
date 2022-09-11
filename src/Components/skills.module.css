@@ -1,0 +1,35 @@
+.skills{
+    text-decoration: underline;
+    text-decoration-thickness: .2rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.title{
+    font-weight: 600;
+    text-align: left;
+}
+.skill{
+    display: flex;
+    margin: 0 2rem;
+    justify-content: space-between;
+    
+}
+.container{
+    margin-bottom: 7rem;
+}
+.box{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+.icon{
+    color: #127369;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.text{
+    font-weight: 600;
+}

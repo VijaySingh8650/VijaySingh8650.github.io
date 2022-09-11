@@ -33,10 +33,10 @@ const theme = extendTheme({
         Text: {
             variants: {
                 sm: {
-                  fontSize:".8rem"
+                  fontSize:"1.2rem"
                 },
                 base: {
-                  fontSize:"1rem"
+                  fontSize:"1.5rem"
                 },
                 md: {
                   fontSize:"1.5rem"
