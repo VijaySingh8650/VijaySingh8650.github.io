@@ -29,6 +29,20 @@ const theme = extendTheme({
                 },
                 
             }
+    },
+        Text: {
+            variants: {
+                sm: {
+                  fontSize:".8rem"
+                },
+                base: {
+                  fontSize:"1rem"
+                },
+                md: {
+                  fontSize:"1.5rem"
+                },
+                
+            }
         }
     }
 })
