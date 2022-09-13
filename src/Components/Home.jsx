@@ -1,4 +1,4 @@
-import { Heading , Box, SimpleGrid, Image, Input, Button} from '@chakra-ui/react';
+import { Heading , Box, SimpleGrid, Image,  Button} from '@chakra-ui/react';
 import React from 'react'
 import styles from "./home.module.css"
 import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';

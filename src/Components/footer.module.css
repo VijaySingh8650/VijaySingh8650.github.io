@@ -1,0 +1,32 @@
+.get{
+    text-decoration: underline;
+    text-decoration-thickness: .2rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.name{
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+.icons{
+    font-size: 1rem;
+    
+}
+.box{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.box:hover {
+    color:#127369;
+    transform: scale(1.2);
+    text-decoration: underline;
+    text-decoration-color: #127369;
+}
