@@ -11,47 +11,47 @@ export default function Footer() {
   return (
       <Box id="contact">
           
-          <Text variant={["sm", "base", "md"]} color="#127369" className={styles.get}>Get In Touch</Text>
-          <Text className={styles.name}  variant={["sm", "base", "md"]}>Vijay Singh Rathore</Text> 
+          <Text  color="#127369" className={styles.get}>Contact</Text>
+          <Text className={styles.name}>Vijay Singh Rathore</Text> 
 
           <Box className={styles.container}>
                   <a href="https://github.com/VijaySingh8650">
-              <Box className={styles.box}>
+              <Text variant={["sm","base","md"]} className={styles.box}>
                       
                   <BsGithub className={styles.icons}/>
-                  <Text className={styles.name}>Github</Text> 
-              </Box>
+                  Github 
+              </Text>
                   </a>
                   <a href="https://www.linkedin.com/in/vijay-singh-rathore-738860166/">
-              <Box className={styles.box}>
+              <Text variant={["sm","base","md"]}  className={styles.box}>
                       
                       <BsLinkedin className={styles.icons} />
                       
-                  <Text className={styles.name}>Linkedin</Text> 
-              </Box>
+                  Linkedin
+              </Text>
                   </a>
                   <a href="https://twitter.com/VijaySi91629929">
-                  <Box className={styles.box}>
+                  <Text variant={["sm","base","md"]}  className={styles.box}>
                       
                   <BsTwitter className={styles.icons}/>
-                  <Text className={styles.name}>Twitter</Text> 
-                   </Box>
+                  Twitter
+                   </Text>
               </a>
               
               <a href="mailto:rathorevijay995@gmail.com">
                   
-              <Box className={styles.box}>
+              <Text variant={["sm","base","md"]}  className={styles.box}>
                   <AiOutlineMail className={styles.icons}/>
-                  <Text className={styles.name}>Email</Text> 
-              </Box>
+                 Email 
+              </Text>
              </a>
 
               <a href="tel:+917619702306">
                   
-              <Box className={styles.box}>
+              <Text variant={["sm","base","md"]}  className={styles.box}>
                   <BsFillTelephoneFill  className={styles.icons}/>
-                  <Text className={styles.name}>Call</Text> 
-              </Box>
+                  Call 
+              </Text>
             </a>
               
           </Box>

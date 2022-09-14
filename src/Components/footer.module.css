@@ -3,9 +3,11 @@
     text-decoration-thickness: .2rem;
     padding-bottom: 1rem;
     font-weight: 600;
+    font-size:25px;
 }
 .name{
     font-weight: 600;
+    font-size:20px;
 }
 .container{
     display: flex;

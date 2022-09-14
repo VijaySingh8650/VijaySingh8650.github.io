@@ -3,10 +3,12 @@
     text-decoration-thickness: .2rem;
     padding-bottom: 1rem;
     font-weight: 600;
+    font-size: 25px;
 }
 .title{
     font-weight: 600;
     text-align: left;
+    font-size: 20px;
 }
 .skill{
     display: flex;

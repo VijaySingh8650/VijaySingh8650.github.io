@@ -1,0 +1,63 @@
+.projects {
+    text-decoration: underline;
+    text-decoration-thickness: .2rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+.project{
+    margin: 0 2rem;
+   margin-bottom: 7rem;
+   
+}
+.box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+
+.image{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    object-fit: contain;
+    height: 100%;
+    
+}
+
+.heading{
+    margin: 0 0 .7rem 0;
+    font-weight: 600;
+    line-height: 1.2rem;
+    text-align: left;
+}
+
+.features{
+    text-align: left;
+    line-height: 1.2rem;
+
+}
+.responsibility{
+    text-align: left;
+    line-height: 1.2rem;
+    margin: 1rem 0;
+
+}
+.stack{
+    text-align: left;
+ 
+
+}
+.time{
+    text-align: left;
+    font-weight: bold;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn2{
+    margin-left: 20px;
+}

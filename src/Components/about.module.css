@@ -3,9 +3,10 @@
     text-decoration-thickness: .2rem;
     padding-bottom: 1rem;
     font-weight: 600;
+    font-size: 25px;
 }
 .aboutdetails{
-    font-size: 1rem;
+    /* font-size: 1rem; */
     margin: 0 20%;
     font-weight: 600;
 }
@@ -13,5 +14,6 @@
    margin: 7rem 0;
 }
 .name{
+    font-size: 25px;
     font-weight: 600;
 }
