@@ -55,7 +55,7 @@ export default function Footer() {
             </a>
               
           </Box>
-          <Text mb="1rem"> © 2022 copyright all right reserved </Text>
+          <Text mb="1rem" variant={["sm","base","md"]}> © 2022 copyright all right reserved </Text>
         
       </Box>
   )

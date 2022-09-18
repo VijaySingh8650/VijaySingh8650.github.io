@@ -1,0 +1,21 @@
+.box{
+    height:100px;
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid #127369;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.container{
+    margin: 1rem 4rem 0 4rem;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-weight: 600;
+}

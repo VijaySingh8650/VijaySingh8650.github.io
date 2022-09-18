@@ -3,11 +3,15 @@ import React from 'react'
 import styles from "./skills.module.css";
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiApachemaven, SiExpress, SiMongodb } from 'react-icons/si';
 import { FaNodeJs } from "react-icons/fa";
+import { MdLeaderboard } from "react-icons/md";
+import { RiTeamFill} from "react-icons/ri";
+import { GoGitCompare} from "react-icons/go";
+import Static from './Static';
 export default function Skills() {
   return (
     <Box id="skills" className={styles.container}>
           <Text color="#127369" className={styles.skills}>Skills</Text>
-          <SimpleGrid columns={[1,1,2]} gap="3rem" m="0 4rem">
+          <SimpleGrid columns={[1,2,3]} gap="3rem" m="0 4rem">
               <Box>
                   
                   <Text  className={styles.title}>Front-End Skills</Text>
@@ -43,7 +47,31 @@ export default function Skills() {
                    </Box>
                   
               </Box>
+
+
+
+
+
+
+
+
+
+              <Box>
+                  
+                  <Text className={styles.title}>Soft Skills</Text>
+                   <Box className={styles.box}>
+                      <MdLeaderboard className={styles.icon}/> <Text className={styles.text}   variant={["sm","base","md"]}>Leadership</Text>
+                   </Box>
+                   <Box className={styles.box}>
+                      <RiTeamFill className={styles.icon}/> <Text className={styles.text}  variant={["sm","base","md"]}>Team Work</Text>
+                   </Box>
+                   <Box className={styles.box}>
+                      <GoGitCompare className={styles.icon}/> <Text className={styles.text}  variant={["sm","base","md"]}>Problem Solving</Text>
+                   </Box>
+                  
+              </Box>
           </SimpleGrid>
+          <Static/>
               
     </Box>
   )

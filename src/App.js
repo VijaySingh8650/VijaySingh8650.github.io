@@ -2,10 +2,12 @@
 import './App.css';
 import About from './Components/About';
 import Footer from './Components/Footer';
+import GithubCalendar from './Components/Calendar';
 import Home from './Components/Home';
 import Navbar from "./Components/Navbar"
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
+
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Home />
       <About />
       <Skills />
+   
+      {/* <GithubCalendar/> */}
       <Projects/>
       <Footer/>
       
