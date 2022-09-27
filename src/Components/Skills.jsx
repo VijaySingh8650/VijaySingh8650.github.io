@@ -7,6 +7,8 @@ import { MdLeaderboard } from "react-icons/md";
 import { RiTeamFill} from "react-icons/ri";
 import { GoGitCompare} from "react-icons/go";
 import Static from './Static';
+import GitHub from './Git';
+
 export default function Skills() {
   return (
     <Box id="skills" className={styles.container}>
@@ -71,8 +73,9 @@ export default function Skills() {
                   
               </Box>
           </SimpleGrid>
-          <Static/>
-              
+          <Static />
+          <br/>
+          <GitHub/>
     </Box>
   )
 }

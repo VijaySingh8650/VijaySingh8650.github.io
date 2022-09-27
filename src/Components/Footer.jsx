@@ -38,24 +38,31 @@ export default function Footer() {
                    </Text>
               </a>
               
-              <a href="mailto:rathorevijay995@gmail.com">
-                  
-              <Text variant={["sm","base","md"]}  className={styles.box}>
-                  <AiOutlineMail className={styles.icons}/>
-                 Email 
-              </Text>
-             </a>
+              
 
-              <a href="tel:+917619702306">
-                  
-              <Text variant={["sm","base","md"]}  className={styles.box}>
-                  <BsFillTelephoneFill  className={styles.icons}/>
-                  Call 
-              </Text>
-            </a>
+             
               
           </Box>
-          <Text mb="1rem" variant={["sm","base","md"]}> © 2022 copyright all right reserved </Text>
+          <Box className={styles.container1}>
+              
+              <a href="mailto:rathorevijay995@gmail.com">
+                  
+                <Text variant={["sm","base","md"]}  className={styles.box1}>
+                  <AiOutlineMail className={styles.icons}/>
+                 rathorevijay995@gmail.com 
+                </Text>
+              </a>
+              <a href="tel:+917619702306">
+                  
+              <Text variant={["sm","base","md"]}  className={styles.box1}>
+                  <BsFillTelephoneFill  className={styles.icons}/>
+                  +91-7619702306
+              </Text>
+              </a>
+              
+          </Box>
+          
+          <Text color="grey" mb="1rem" variant={["sm","base","md"]}> © 2022 copyright all right reserved </Text>
         
       </Box>
   )
