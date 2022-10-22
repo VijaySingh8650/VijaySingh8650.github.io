@@ -22,6 +22,9 @@ var arr = [{
 },{
   href: "#contact",
   title:"Contact"
+  }, {
+    href: "https://drive.google.com/file/d/17XhE4rIBCQB-oKJA69CjFJwuxTf9NVvw/view?usp=sharing",
+    title:"Resume"
 }
 ]
 
