@@ -81,7 +81,7 @@ export default function Skills() {
           <Text className={styles.title} mb="1rem">GitHub Stats</Text>
 
                 
-                <Image align="center"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=VijaySingh8650&hide=html,css&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" width="35%"/>
+                {/* <Image align="center"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=VijaySingh8650&hide=html,css&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" width="35%"/> */}
                
 
                 
