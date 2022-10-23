@@ -16,7 +16,7 @@ const Home = () => {
                 // Setting various property values
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Resume.pdf';
+                alink.download = 'Vijay-Singh-Rathore-Resume.pdf';
                 alink.click();
             })
         })
