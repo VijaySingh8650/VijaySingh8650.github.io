@@ -4,7 +4,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import styles from "./navbar.module.css";
 import { MdReorder, MdClear, MdAccountCircle, MdManageAccounts, MdContactPhone } from 'react-icons/md';
 import { AiFillHome, AiFillProject } from 'react-icons/ai';
-import Title from './Title';
+import { Link } from 'react-router-dom';
+
 
 var arr = [{
   href: "#home",
@@ -51,7 +52,7 @@ export default function Navbar() {
               <AnchorLink offset='100'  href="#skills" className={styles.subtitle}>Skills</AnchorLink>
               <AnchorLink offset='100'  href="#projects" className={styles.subtitle}>Projects</AnchorLink>
               <AnchorLink  offset='100' href="#contact" className={styles.subtitle}>Contact</AnchorLink>
-              <AnchorLink  offset='100' href="https://drive.google.com/file/d/17XhE4rIBCQB-oKJA69CjFJwuxTf9NVvw/view?usp=sharing" className={styles.subtitle}>Resume</AnchorLink>
+              <Link  offset='100' href="https://drive.google.com/file/d/17XhE4rIBCQB-oKJA69CjFJwuxTf9NVvw/view?usp=sharing" className={styles.subtitle}>Resume</Link>
         </Box>
         <Box className={styles.icon}>
             <MdReorder onClick={ ()=>setShow(true)} />
