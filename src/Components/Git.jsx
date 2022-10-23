@@ -1,5 +1,5 @@
 import { Box, Text } from "@chakra-ui/react";
-import React, { useState, useEffect } from "react";
+import React  from "react";
 import GitHubCalendar from 'react-github-calendar';
 import styles from "./skills.module.css";
 
@@ -15,7 +15,7 @@ const GitHub = () => {
  
   return(
     <Box style={style}>
-      <Text variant={["sm", "base", "md"]} mb="1rem" className={styles.text}>GitHub Contributions Calendar</Text>
+      <Text className={styles.title} mb="1rem">My GitHub Calendar</Text>
       <Box>
         <GitHubCalendar
         username="VijaySingh8650"
@@ -23,7 +23,7 @@ const GitHub = () => {
         
         blockMargin={8}
         color ='#127369'
-          fontSize={16}
+          fontSize={18}
           
       />
       </Box>

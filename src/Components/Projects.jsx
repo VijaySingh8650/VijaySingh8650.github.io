@@ -55,11 +55,11 @@ export default function Projects() {
                         <Box mt="1rem" className={styles.btn}>
                           
                                   <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]}>
-                                      <a href="https://github.com/VijaySingh8650" target="_blank">
+                                      <a rel="noreferrer" href="https://github.com/VijaySingh8650" target="_blank">
                           <Text variant={["sm", "base", "md"]}><BsGithub /></Text></a></Button>
               
                           <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]} className={styles.btn2}>
-                              <a href="https://lovoda-ecommerce-website.netlify.app/" target="_blank">
+                              <a rel="noreferrer" href="https://lovoda-ecommerce-website.netlify.app/" target="_blank">
                               <Text variant={["sm", "base", "md"]}>Live</Text></a>
               </Button>
                           
@@ -108,11 +108,11 @@ export default function Projects() {
                         <Box mt="1rem" className={styles.btn}>
                           
                                   <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]}>
-                                      <a href="https://github.com/VijaySingh8650/Banggood-Website" target="_blank">
+                                      <a rel="noreferrer" href="https://github.com/VijaySingh8650/Banggood-Website" target="_blank">
                           <Text variant={["sm", "base", "md"]}><BsGithub /></Text></a></Button>
               
                           <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]} className={styles.btn2}>
-                              <a href="https://prismatic-bubblegum-5ec055.netlify.app/" target="_blank">
+                              <a rel="noreferrer" href="https://prismatic-bubblegum-5ec055.netlify.app/" target="_blank">
                               <Text variant={["sm", "base", "md"]}>Live</Text></a>
               </Button>
                           
@@ -150,11 +150,11 @@ export default function Projects() {
                         <Box mt="1rem" className={styles.btn}>
                           
                                   <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]}>
-                                      <a href="https://github.com/VijaySingh8650/Unsplash-Clone" target="_blank">
+                                      <a rel="noreferrer" href="https://github.com/VijaySingh8650/Unsplash-Clone" target="_blank">
                           <Text variant={["sm", "base", "md"]}><BsGithub /></Text></a></Button>
               
                           <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]} className={styles.btn2}>
-                              <a href="https://unsplash-js.netlify.app/" target="_blank">
+                              <a rel="noreferrer" href="https://unsplash-js.netlify.app/" target="_blank">
                               <Text variant={["sm", "base", "md"]}>Live</Text></a>
               </Button>
                           
