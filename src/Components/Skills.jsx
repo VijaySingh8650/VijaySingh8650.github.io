@@ -1,4 +1,4 @@
-import { Box, SimpleGrid, Text } from '@chakra-ui/react'
+import { Box, Image, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import styles from "./skills.module.css";
 import { SiHtml5, SiCss3, SiJavascript, SiReact, SiApachemaven, SiExpress, SiMongodb } from 'react-icons/si';
@@ -75,7 +75,20 @@ export default function Skills() {
           </SimpleGrid>
           <Static />
           <br/>
-          <GitHub/>
+          <GitHub />
+          <Box>
+              
+          <Text>GitHub Stats</Text>
+
+                <a href="https://github.com/VijaySingh8650">
+                <Image align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VijaySingh8650&hide=html,css&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
+                </a>
+
+                <a href="https://github.com/VijaySingh8650">
+                <Image align="center" style="margin:0.5rem" src="https://github-readme-stats.vercel.app/api?username=VijaySingh8650&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=4AB097&bg_color=1A2B34" alt="Martin's GitHub Stats" />
+                </a>
+
+              </Box>
     </Box>
   )
 }
