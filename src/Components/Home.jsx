@@ -42,16 +42,16 @@ const Home = () => {
         
 
         <Box className={styles.linkandgit}>
-          <a href="https://github.com/VijaySingh8650" className={styles.icongit}>
+          <a rel="noreferrer" target="_blank" href="https://github.com/VijaySingh8650" className={styles.icongit}>
 
           <BsGithub />
           </a>
-          <a href="https://www.linkedin.com/in/vijay-singh-rathore-738860166/" className={styles.icongit}>
+          <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/vijay-singh-rathore-738860166/" className={styles.icongit}>
 
           <BsLinkedin />
           </a>
           
-          <a href="https://twitter.com/VijaySi91629929" className={styles.icongit}>
+          <a rel="noreferrer" target="_blank" href="https://twitter.com/VijaySi91629929" className={styles.icongit}>
 
           <BsTwitter />
           </a>

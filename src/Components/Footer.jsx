@@ -15,14 +15,14 @@ export default function Footer() {
           <Text className={styles.name}>Vijay Singh Rathore</Text> 
 
           <Box className={styles.container}>
-                  <a href="https://github.com/VijaySingh8650">
+                  <a rel="noreferrer" target="_blank" href="https://github.com/VijaySingh8650">
               <Text variant={["sm","base","md"]} className={styles.box}>
                       
                   <BsGithub className={styles.icons}/>
                   Github 
               </Text>
                   </a>
-                  <a href="https://www.linkedin.com/in/vijay-singh-rathore-738860166/">
+                  <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/vijay-singh-rathore-738860166/">
               <Text variant={["sm","base","md"]}  className={styles.box}>
                       
                       <BsLinkedin className={styles.icons} />
@@ -30,7 +30,7 @@ export default function Footer() {
                   Linkedin
               </Text>
                   </a>
-                  <a href="https://twitter.com/VijaySi91629929">
+                  <a rel="noreferrer" target="_blank" href="https://twitter.com/VijaySi91629929">
                   <Text variant={["sm","base","md"]}  className={styles.box}>
                       
                   <BsTwitter className={styles.icons}/>
@@ -45,14 +45,14 @@ export default function Footer() {
           </Box>
           <Box className={styles.container1}>
               
-              <a href="mailto:rathorevijay995@gmail.com">
+              <a rel="noreferrer" target="_blank" href="mailto:rathorevijay995@gmail.com">
                   
                 <Text variant={["sm","base","md"]}  className={styles.box1}>
                   <AiOutlineMail className={styles.icons}/>
                  rathorevijay995@gmail.com 
                 </Text>
               </a>
-              <a href="tel:+917619702306">
+              <a  href="tel:+917619702306">
                   
               <Text variant={["sm","base","md"]}  className={styles.box1}>
                   <BsFillTelephoneFill  className={styles.icons}/>
