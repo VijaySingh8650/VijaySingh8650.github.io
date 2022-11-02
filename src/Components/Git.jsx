@@ -23,7 +23,8 @@ const GitHub = () => {
         
         blockMargin={8}
         color ='#127369'
-          fontSize={18}
+        fontSize={16}
+          
           
       />
       </Box>
