@@ -2,7 +2,7 @@ import { Heading , Box, SimpleGrid, Image,  Button} from '@chakra-ui/react';
 import React from 'react'
 import styles from "./home.module.css"
 import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
-import image from "../Image/Vijay.png";
+import image from "../Image/VijayPic.png";
 let style = {
   display:"inline"
 }
