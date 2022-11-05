@@ -4,6 +4,7 @@ import styles from "./project.module.css"
 import image from "../Image/Lovoda.png"
 import banggood from "../Image/banggood.png"
 import unsplash from "../Image/unsplash.png"
+import cricbuzz from "../Image/cricbuzz.png"
 import {BsGithub} from 'react-icons/bs';
 
 
@@ -155,6 +156,56 @@ export default function Projects() {
               
                           <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]} className={styles.btn2}>
                               <a rel="noreferrer" href="https://unsplash-js.netlify.app/" target="_blank">
+                              <Text variant={["sm", "base", "md"]}>Live</Text></a>
+              </Button>
+                          
+                        </Box>
+                      
+                  </Box>
+                  
+              </SimpleGrid>
+
+
+
+
+              {/* 4th project */}
+               <SimpleGrid columns={[1,1,2]} className={styles.box} gap="2rem">
+                  <Box className={styles.imagebox}>
+                      
+                  <Image src={cricbuzz} className={styles.image}/>
+                  </Box>
+                  <Box>
+                      <Text variant={["sm","base","md"]} className={styles.heading}>Cricbuzz is an Indian cricket website which features news, articles, live scores of matches, videos. They also offer mobile app. </Text> 
+                  <Text variant={["sm","base","md"]}  className={styles.features}>
+                      <b>Features: </b>
+                      <br />
+                            <b>1.</b> It updates you with the current matches, their scores, past matches and more details about each and every match.
+  
+                       
+                           
+                     <br />
+                     
+                        <b>2.</b> It also updates you regarding the match news through pictures and videos. 
+                     
+                              
+                     
+                  </Text>
+                  <Text variant={["sm","base","md"]}  className={styles.responsibility}>
+                          <b>Area Of Responsibility: </b>
+                          <br />
+                           Created homepage to show some news related to the matches and the current matches and their socres.
+                  </Text>
+                  <Text variant={["sm","base","md"]}  className={styles.stack}><b>Tech Stack: </b>HTML | CSS | Javascript</Text>
+                      <Text variant={["sm", "base", "md"]} className={styles.time}>A collaborative project, built in 5 days by a team of 6 developers.</Text>
+
+                        <Box mt="1rem" className={styles.btn}>
+                          
+                                  <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]}>
+                                      <a rel="noreferrer" href="https://github.com/VijaySingh8650/cricbuzz" target="_blank">
+                          <Text variant={["sm", "base", "md"]}><BsGithub /></Text></a></Button>
+              
+                          <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]} className={styles.btn2}>
+                              <a rel="noreferrer" href="https://luxury-douhua-2f73cb.netlify.app/index.html" target="_blank">
                               <Text variant={["sm", "base", "md"]}>Live</Text></a>
               </Button>
                           
