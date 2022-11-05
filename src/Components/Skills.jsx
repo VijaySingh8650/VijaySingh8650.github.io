@@ -85,7 +85,7 @@ export default function Skills() {
                
 
                 
-                <Image align="center"  src="https://github-readme-stats.vercel.app/api?username=VijaySingh8650&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=4AB097&bg_color=1A2B34" alt="Vijay's GitHub Stats" width="50%" />
+                <Image align="center"  src="http://github-readme-streak-stats.herokuapp.com?user=VijaySingh8650&theme=dark&background=1A2B34" alt="Vijay's GitHub Stats" width="50%" />
                
 
               </Box>
