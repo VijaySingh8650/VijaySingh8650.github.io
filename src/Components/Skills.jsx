@@ -85,7 +85,7 @@ export default function Skills() {
                
 
                 
-                <Image align="center"  src="http://github-readme-streak-stats.herokuapp.com?user=VijaySingh8650&theme=dark&background=1A2B34" alt="Vijay's GitHub Stats" width="50%" />
+                <Image align="center"  src="http://github-readme-streak-stats.herokuapp.com?user=VijaySingh8650&theme=dark&background=1A2B34" alt="Vijay's GitHub Stats" width="40%" />
                
 
               </Box>
