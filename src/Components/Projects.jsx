@@ -196,7 +196,7 @@ export default function Projects() {
                            Created homepage to show some news related to the matches and the current matches and their socres.
                   </Text>
                   <Text variant={["sm","base","md"]}  className={styles.stack}><b>Tech Stack: </b>HTML | CSS | Javascript</Text>
-                      <Text variant={["sm", "base", "md"]} className={styles.time}>A collaborative project, built in 5 days by a team of 6 developers.</Text>
+                      <Text variant={["sm", "base", "md"]} className={styles.time}>A collaborative project, built in 5 days by a team of 5 developers.</Text>
 
                         <Box mt="1rem" className={styles.btn}>
                           
