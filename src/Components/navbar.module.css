@@ -74,7 +74,8 @@
   position: fixed;
   top:0;
   right:0;
-  
+  visibility: hidden;
+  height: 100%;
   padding: 20px 50px 50px 50px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   
@@ -103,6 +104,9 @@
   }
   .box{
     display: none;
+  }
+  .show{
+    visibility: visible;
   }
 }
 

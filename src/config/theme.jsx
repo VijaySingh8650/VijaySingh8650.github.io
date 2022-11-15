@@ -1,6 +1,7 @@
 import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
+   
     components: {
         Heading: {
             variants: {
@@ -39,7 +40,7 @@ const theme = extendTheme({
                   fontSize:".8rem"
                 },
                 md: {
-                  fontSize:".85rem"
+                  fontSize:"1rem"
                 },
                 
             }
