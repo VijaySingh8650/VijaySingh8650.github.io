@@ -2,7 +2,7 @@ import { Box, SimpleGrid, Text, Image, Button } from '@chakra-ui/react'
 import React from 'react'
 import styles from "./project.module.css"
 import image from "../Image/Lovoda.png"
-import homedecor from "../Image/banggood.png"
+import homedecor from "../Image/homedecor.png"
 import unsplash from "../Image/unsplash.png"
 import cricbuzz from "../Image/cricbuzz.png"
 import {BsGithub} from 'react-icons/bs';
