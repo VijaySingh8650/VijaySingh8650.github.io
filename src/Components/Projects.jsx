@@ -2,7 +2,7 @@ import { Box, SimpleGrid, Text, Image, Button } from '@chakra-ui/react'
 import React from 'react'
 import styles from "./project.module.css"
 import image from "../Image/Lovoda.png"
-import banggood from "../Image/banggood.png"
+import homedecor from "../Image/banggood.png"
 import unsplash from "../Image/unsplash.png"
 import cricbuzz from "../Image/cricbuzz.png"
 import {BsGithub} from 'react-icons/bs';
@@ -74,10 +74,10 @@ export default function Projects() {
          <SimpleGrid columns={[1,1,2]} className={styles.box} gap="2rem">
                   <Box className={styles.imagebox}>
                       
-                  <Image src={banggood} className={styles.image}/>
+                  <Image src={homedecor} className={styles.image}/>
                   </Box>
                   <Box>
-                      <Text variant={["sm","base","md"]} className={styles.heading}>BANGGOOD is a Global Leading Online Shop for Gadgets and Fashion.</Text> 
+                      <Text variant={["sm","base","md"]} className={styles.heading}>HomeDecor is a website where user can search for home decoration products like furnitures and many more.</Text> 
                   <Text variant={["sm","base","md"]}  className={styles.features}>
                       <b>Features: </b>
                       <br />
@@ -96,24 +96,25 @@ export default function Projects() {
                   <Text variant={["sm","base","md"]}  className={styles.responsibility}>
                           <b>Area Of Responsibility: </b>
                           <br />
-                     <b>1.</b> Created home page with all the functionality like adding items to cart.
+                     <b>1.</b> Created backend with all the CRUD operations.
+
 
                       <br />
                           
                       
-                      <b>2.</b>Created cart page, where user can easily increase and decrease the quantity of products.
+                      <b>2.</b>Created admin page &  cart page, where user can easily increase and decrease the quantity of products.
                   </Text>
-                  <Text variant={["sm","base","md"]}  className={styles.stack}><b>Tech Stack: </b>HTML | CSS | Javascript</Text>
+                  <Text variant={["sm","base","md"]}  className={styles.stack}><b>Tech Stack: </b>ReactJS | NodeJS | ExpressJS | MongoDB | ChakraUI</Text>
                       <Text variant={["sm", "base", "md"]} className={styles.time}>A collaborative project, built in 5 days by a team of 6 developers.</Text>
 
                         <Box mt="1rem" className={styles.btn}>
                           
                                   <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]}>
-                                      <a rel="noreferrer" href="https://github.com/VijaySingh8650/Banggood-Website" target="_blank">
+                                      <a rel="noreferrer" href="https://github.com/VijaySingh8650/instinctive-start-5063" target="_blank">
                           <Text variant={["sm", "base", "md"]}><BsGithub /></Text></a></Button>
               
                           <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]} className={styles.btn2}>
-                              <a rel="noreferrer" href="https://prismatic-bubblegum-5ec055.netlify.app/" target="_blank">
+                              <a rel="noreferrer" href="https://homedecorfurniture.vercel.app/" target="_blank">
                               <Text variant={["sm", "base", "md"]}>Live</Text></a>
               </Button>
                           
