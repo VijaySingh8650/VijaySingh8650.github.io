@@ -56,11 +56,11 @@ export default function Projects() {
                         <Box mt="1rem" className={styles.btn}>
                           
                                   <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]}>
-                                      <a rel="noreferrer" href="https://github.com/VijaySingh8650" target="_blank">
+                                      <a rel="noreferrer" href="https://github.com/VijaySingh8650/exuberant-place-760" target="_blank">
                           <Text variant={["sm", "base", "md"]}><BsGithub /></Text></a></Button>
               
                           <Button bg='#127369' color={"white"} variant={["sm", "base", "md"]} className={styles.btn2}>
-                              <a rel="noreferrer" href="https://lovoda-ecommerce-website.netlify.app/" target="_blank">
+                              <a rel="noreferrer" href="https://lovoda-ecommerce.vercel.app/" target="_blank">
                               <Text variant={["sm", "base", "md"]}>Live</Text></a>
               </Button>
                           
