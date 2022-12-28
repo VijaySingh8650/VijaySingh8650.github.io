@@ -14,7 +14,7 @@ export default function Static() {
              <Text variant={["sm","base","md"]} className={styles.text}>Hours DSA</Text>
           </Box>
           <Box className={styles.cont}>
-             <Box className={styles.box}><Text variant={["sm","base","md"]} className={styles.text}>300+</Text></Box> 
+             <Box className={styles.box}><Text variant={["sm","base","md"]} className={styles.text}>900+</Text></Box> 
              <Text variant={["sm","base","md"]} className={styles.text}>Git Commit</Text>
           </Box>
           <Box className={styles.cont}>
