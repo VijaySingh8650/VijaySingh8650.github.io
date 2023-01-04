@@ -27,8 +27,10 @@
     margin-top: 2rem;
 }
 .icongit{
-    margin:0  5%;
+    margin:0  5%; 
+    
 }
+
 .image{
     width: 60%;
     object-fit: cover;

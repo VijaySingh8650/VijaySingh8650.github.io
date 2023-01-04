@@ -132,6 +132,16 @@
   
 }
 
+.scrollUp{
+  position: fixed;
+  bottom: -3rem;
+  right: 0;
+  height: 100px;
+  width: 100px;
+
+}
+
+
 @media screen and (max-width:1200px) {
   .icon{
     display: block;

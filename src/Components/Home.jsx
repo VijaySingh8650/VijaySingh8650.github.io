@@ -33,48 +33,77 @@ const Home = () => {
 
 
   return (
-    <SimpleGrid id="home" className={styles.container} columns={[1,1,2]}>
-      
+    <SimpleGrid id="home" className={styles.container} columns={[1, 1, 2]}>
       <Box>
         <Image src={image} className={styles.image} />
       </Box>
 
+      <Box>
+        <Heading variant={['sm', 'base', 'md']}>Hi, </Heading>
+        <Box>
+          <Heading style={style} variant={['sm', 'base', 'md']}>
+            {' '}
+            I'm{' '}
+          </Heading>
+          <Heading
+            variant={['sm', 'base', 'md']}
+            className={styles.name}
+            style={style}
+          >
+            Vijay
+          </Heading>
+        </Box>
 
-      <Box >
-        <Heading variant={["sm","base","md"]}>Hi, </Heading>
-        <Box><Heading style={style} variant={["sm", "base", "md"]}> I'm </Heading><Heading variant={["sm", "base", "md"]} className={styles.name} style={style}>Vijay</Heading></Box>
-        
+        <Heading variant={['sm', 'base', 'md']}>MERN Developer</Heading>
 
-          <Heading  variant={["sm", "base", "md"]} >MERN Developer</Heading>
-          
-      
-
-       
-
-        <Button onClick={onButtonClick }
-          className={styles.btn} mt="1rem" bg='#127369' color={"white"} variant={["sm", "base", "md"]}>Resume</Button>
-        
+        <Button
+          onClick={onButtonClick}
+          className={styles.btn}
+          mt="1rem"
+          bg="#127369"
+          color={'white'}
+          variant={['sm', 'base', 'md']}
+        >
+          Resume
+        </Button>
 
         <Box className={styles.linkandgit}>
-          <a rel="noreferrer" target="_blank" href="https://github.com/VijaySingh8650" className={styles.icongit}>
-
-          <BsGithub />
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://github.com/VijaySingh8650"
+            className={styles.icongit}
+          >
+            
+              <BsGithub />
+            
           </a>
-          <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/vijay-singh-rathore-738860166/" className={styles.icongit}>
-
-          <BsLinkedin />
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/vijay-singh-rathore-738860166/"
+            className={styles.icongit}
+          >
+            
+              <BsLinkedin />
+            
           </a>
+
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href="https://twitter.com/VijaySi91629929"
+            className={styles.icongit}
+          >
           
-          <a rel="noreferrer" target="_blank" href="https://twitter.com/VijaySi91629929" className={styles.icongit}>
-
-          <BsTwitter />
+          
+            <BsTwitter />
+            
           </a>
         </Box>
-          
-    
       </Box>
     </SimpleGrid>
-  )
+  );
 
 }
 

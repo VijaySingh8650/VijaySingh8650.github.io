@@ -9,20 +9,20 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 
 
-
 function App() {
+ 
   return (
     <div className="App">
       
-      <Navbar/>
+
+      <Navbar />
       <Home />
       <About />
       <Skills />
-   
+
       {/* <GithubCalendar/> */}
-      <Projects/>
-      <Footer/>
-      
+      <Projects />
+      <Footer />
     </div>
   );
 }
