@@ -1,12 +1,20 @@
 import { Heading , Box, SimpleGrid, Image,  Button} from '@chakra-ui/react';
-import React from 'react'
+import React  from 'react'
+
 import styles from "./home.module.css"
 import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
 import image from "../Image/VijayPic.png";
 let style = {
   display:"inline"
 }
+
+
 const Home = () => {
+ 
+
+ 
+
+
    const onButtonClick = () => {
         // using Java Script method to get PDF file
         fetch('Vijay-Singh-Rathore-Resume.pdf').then(response => {
@@ -20,7 +28,9 @@ const Home = () => {
                 alink.click();
             })
         })
-    }
+  }
+  
+
 
   return (
     <SimpleGrid id="home" className={styles.container} columns={[1,1,2]}>
@@ -33,7 +43,11 @@ const Home = () => {
       <Box >
         <Heading variant={["sm","base","md"]}>Hi, </Heading>
         <Box><Heading style={style} variant={["sm", "base", "md"]}> I'm </Heading><Heading variant={["sm", "base", "md"]} className={styles.name} style={style}>Vijay</Heading></Box>
-        <Heading variant={["sm", "base", "md"]}>MERN Developer</Heading>
+        
+
+          <Heading  variant={["sm", "base", "md"]} >MERN Developer</Heading>
+          
+      
 
        
 

@@ -11,8 +11,11 @@ import { GrNotes } from 'react-icons/gr';
 
 
 
+
 export default function Navbar() {
   const [show, setShow] = useState(false);
+  
+  
   
   return (
     <>
@@ -25,11 +28,6 @@ export default function Navbar() {
              V 
           </Box>
           <Box className={styles.box}>
-            {/* {
-              arr.map((item, index) => {
-                return <Title key={index} {...item} />
-              })
-            } */}
               <AnchorLink  offset='100'  href="#home" className={styles.subtitle}>Home</AnchorLink>
               <AnchorLink offset='100'  href="#about" className={styles.subtitle}>About</AnchorLink>
               <AnchorLink offset='100'  href="#skills" className={styles.subtitle}>Skills</AnchorLink>
