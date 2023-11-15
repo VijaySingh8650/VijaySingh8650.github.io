@@ -62,7 +62,7 @@ export default function Footer() {
               
           </Box>
           
-          <Text color="grey" mb="1rem" variant={["sm","base","md"]}> © 2022 copyright all right reserved </Text>
+          <Text color="grey" mb="1rem" variant={["sm","base","md"]}> © 2023 copyright all right reserved </Text>
         
       </Box>
   )
