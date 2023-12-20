@@ -54,7 +54,7 @@ const Home = () => {
           </Heading>
         </Box>
 
-        <Heading variant={['sm', 'base', 'md']}>MERN Developer</Heading>
+        <Heading variant={['sm', 'base', 'md']}>Frontend Developer</Heading>
 
         <Button
           onClick={onButtonClick}
