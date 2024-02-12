@@ -6,6 +6,10 @@ import { FaNodeJs } from "react-icons/fa";
 import { MdLeaderboard } from "react-icons/md";
 import { RiTeamFill} from "react-icons/ri";
 import { GoGitCompare} from "react-icons/go";
+import { DiPostgresql } from "react-icons/di";
+import { SiRedux } from "react-icons/si";
+
+
 import Static from './Static';
 import GitHub from './Git';
 
@@ -13,7 +17,7 @@ export default function Skills() {
   return (
     <Box id="skills" className={styles.container}>
           <Text color="#127369" className={styles.skills}>Skills</Text>
-          <SimpleGrid columns={[1,2,3]} gap="3rem" m="0 4rem">
+          <SimpleGrid columns={[1,2,4]} gap="3rem" m="0 4rem">
               <Box>
                   
                   <Text  className={styles.title}>Front-End Skills</Text>
@@ -28,6 +32,9 @@ export default function Skills() {
                   </Box>
                   <Box className={styles.box}>
                       <SiReact className={styles.icon}/> <Text className={styles.text} variant={["sm","base","md"]}>ReactJS</Text>
+                  </Box>
+                  <Box className={styles.box}>
+                      <SiRedux className={styles.icon}/> <Text className={styles.text} variant={["sm","base","md"]}>Redux</Text>
                   </Box>
                   <Box className={styles.box}>
                       <SiTypescript className={styles.icon}/> <Text className={styles.text} variant={["sm","base","md"]}>Typescript</Text>
@@ -47,10 +54,18 @@ export default function Skills() {
                    <Box className={styles.box}>
                       <SiExpress className={styles.icon}/> <Text className={styles.text}  variant={["sm","base","md"]}>Express.js</Text>
                    </Box>
+                   
+                  
+              </Box>
+
+              <Box>
+                   <Text className={styles.title}>Data-base Skills</Text>
                    <Box className={styles.box}>
                       <SiMongodb className={styles.icon}/> <Text className={styles.text}  variant={["sm","base","md"]}>MongoDB</Text>
                    </Box>
-                  
+                   <Box className={styles.box}>
+                      <DiPostgresql  className={styles.icon}/> <Text className={styles.text}  variant={["sm","base","md"]}>SQL</Text>
+                   </Box>
               </Box>
 
 
