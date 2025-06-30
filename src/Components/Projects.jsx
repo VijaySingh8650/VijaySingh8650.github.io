@@ -171,7 +171,7 @@ export default function Projects() {
             <Text variant={['sm', 'base', 'md']} className={styles.features}>
               <b>Features: </b>
               User can easily search for any kind of pictures with high
-              resolutuion.
+              resolution.
             </Text>
             <Text
               variant={['sm', 'base', 'md']}
