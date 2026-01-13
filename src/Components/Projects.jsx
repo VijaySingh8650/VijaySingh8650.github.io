@@ -8,6 +8,10 @@ import cricbuzz from '../Image/cricbuzz.png';
 import { BsGithub } from 'react-icons/bs';
 
 export default function Projects() {
+
+  console.log("");
+
+  
   return (
     <Box id="projects" className={styles.project}>
       <Text color="#127369" className={styles.projects}>
