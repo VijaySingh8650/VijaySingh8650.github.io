@@ -54,7 +54,7 @@ export default function Navbar() {
             </AnchorLink>
             <a
               rel="noreferrer"
-              href="https://drive.google.com/file/d/17XhE4rIBCQB-oKJA69CjFJwuxTf9NVvw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1uod0jP7i6ZrEK9kCi_KY7pCJwgwnwcri/view?usp=sharing"
               target="_blank"
               className={styles.subtitle}
             >
